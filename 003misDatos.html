@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>003 Mis Datos</title>
+  </head>
+
+  <body>
+    <!--003misDatos.html y 003misDatos.php: Es el mismo ejercicio anterior, pero 
+    separando la lógica. En el html crearemos el formulario para introducir los 
+    datos, y luego recogemos los datos y generamos la tabla en el segundo 
+    archivo.-->
+
+    <form action="003misDatos.php" method="GET">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" /><br />
+
+      <label for="apellido1">Primer apellido:</label>
+      <input type="text" id="apellido1" name="apellido1" /><br />
+
+      <label for="apellido2">Segundo apellido:</label>
+      <input type="text" id="apellido2" name="apellido2" /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" /><br />
+
+      <label for="anioNacimiento">Año de nacimiento:</label>
+      <input type="number" id="anioNacimiento" name="anioNacimiento" /><br />
+
+      <label for="movil">Móvil:</label>
+      <input type="number" id="movil" name="movil" /><br />
+
+      <input type="submit" />Enviar
+    </form>
+  </body>
+</html>

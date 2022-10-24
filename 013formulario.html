@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>013 Formulario</title>
+  </head>
+
+  <body>
+    <!--Basándote en el ejercicio anterior, rellena la tabla de manera que solo los bordes tengan contenido, 
+    quedándose el resto de las celdas vacías.-->
+
+    <h2>Introduzca el número de filas y columnas para generar la tabla</h2>
+    <form action="013cuadrada.php" method="GET">
+      <label for="row">Número de filas: </label>
+      <input type="number" name="row" id="row" />
+
+      <label for="col">Número de columnas: </label>
+      <input type="number" name="col" id="col" />
+
+      <input type="submit" value="Enviar" />
+    </form>
+
+  </body>
+  
+</html>

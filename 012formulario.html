@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>012 Formulario</title>
+  </head>
+
+  <body>
+    <!--A partir de un número de filas y columnas, crear una tabla con ese tamaño. Las celdas deben estar 
+    rellenadas con los valores de las coordenadas de cada celda.-->
+    
+    <h2>Introduzca el número de filas y columnas para generar la tabla</h2>
+    <form action="012tabla.php" method="GET">
+      <label for="row">Número de filas: </label>
+      <input type="number" name="row" id="row" />
+
+      <label for="col">Número de columnas: </label>
+      <input type="number" name="col" id="col" />
+
+      <input type="submit" value="Enviar" />
+    </form>
+
+  </body>
+
+</html>
